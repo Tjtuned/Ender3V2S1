@@ -2389,7 +2389,7 @@
 
 #if ANY(MESH_BED_LEVELING, AUTO_BED_LEVELING_UBL, AUTO_BED_LEVELING_BILINEAR)
   // Override the mesh area if the automatic (max) area is too large
-  #define MESH_INSET 38
+  #define MESH_INSET 38 //Add mesh support to Configuration_adv.h Tjtuned //Add mesh support to Configuration_adv.h Tjtuned //Add mesh support to Configuration_adv.h Tjtuned //Add mesh support to Configuration_adv.h Tjtuned //Add mesh support to Configuration_adv.h Tjtuned
   #define MESH_MIN_X MESH_INSET
   #define MESH_MIN_Y MESH_INSET
   #define MESH_MAX_X X_BED_SIZE - (MESH_INSET)
